@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+#game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#grid-container {
+  display: grid;
+  gap: 5px;
+}
+
+.grid-cell {
+  width: 50px;
+  height: 50px;
+  background-color: #ddd;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.robot1 {
+  background-color: #3498db;
+}
+
+.robot2 {
+  background-color: #e74c3c;
+}
+
+.robot1-path {
+  background-color: #85c1e9;
+}
+
+.robot2-path {
+  background-color: #f5b7b1;
+}
+
+#info {
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
